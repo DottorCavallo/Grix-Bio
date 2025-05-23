@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descrizione del Mio PG</title>
+    <style>
+        body {
+            background-color: #080808;
+            color: #e0e0e0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            padding: 30px 0;
+            border-bottom: 1px solid #333;
+            margin-bottom: 30px; 
+        }
+        
+        h1 {
+            color: #f0f0f0;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+        }
+        
+        h2 {
+            color: #d0d0d0;
+            border-left: 3px solid #555;
+            padding-left: 10px;
+            margin-top: 30px;
+        }
+        
+        .character-image { 
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #333;
+            margin: 0 auto 20px;
+            display: block;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+        
+        .stat-item {
+            background-color: #121212;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+        
+        .stat-item h3 {
+            margin-top: 0;
+            color: #c0c0c0;
+            border-bottom: 1px dashed #333;
+            padding-bottom: 5px;
+        }
+        
+        .bio {
+            background-color: #121212;
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+        
+        .abilities {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+        
+        .ability {
+            background-color: #121212;
+            padding: 15px;
+            border-radius: 5px;
+            flex: 1 1 200px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+        
+        .ability h3 {
+            color: #c0c0c0;
+            margin-top: 0;
+        }
+        
+        .quote {
+            font-style: italic;
+            color: #a0a0a0;
+            text-align: center;
+            padding: 20px;
+            margin: 30px 0;
+            border-top: 1px dashed #333;
+            border-bottom: 1px dashed #333;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+            font-size: 0.9em;
+            border-top: 1px solid #333;
+            margin-top: 30px;
+        }
+        
+        /* Effetti hover */
+        .stat-item:hover, .ability:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+            transition: all 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+    <div class="container ">
+        <header>
+            <img src= "https://i.postimg.cc/x83bX4L4/th-2456564.jpg" alt="Immagine del Personaggio" class="character-image">
+            <h1>Grixardo Davinchi</h1>
+            <p class="quote"><br>- Sei un elfo? Non sei ben visto, probabilmente perché le tue orecchie a punta sono fuori moda.<BR>- Mezz’elfo? Complimenti, hai vinto il premio di “Peggio del peggio”.<BR>
+- Sei un umano? Beh, non aspettarti bigliettini d’amore.<BR>
+- Sirenide? Mi spiace, ma non sei alla sua altezza, in tutti i sensi.<BR>
+- Sei un nano? Bingo! Almeno Grixardo potrà guardarti negli occhi mentre ti spara frecciatine velenose.<BR>
+Di qualunque razza tu sia, però, se hai una scarsella di monete d’oro luccicanti, diventerai improvvisamente il suo migliore amico. <BR>.  .  .<br>
+Perché niente dice “amicizia sincera” come il tintinnio dell’oro, giusto? GIUSTO??."<br><br></
+</p>
+        </header>
+        
+        <section class="bio">
+            <h2>Identikit del Mastro Ingegnere</h2>
+            <p>In un mondo troppo grande per un goblin qualunque, Grixardo Davinchi si muove con la sicurezza di chi ha deciso di ridurlo in pezzi e rimontarlo a modo suo. <br>È basso, appena un metro di statura, ma porta sé stesso con l’orgoglio di un gigante e lo sguardo sempre puntato qualche secondo avanti rispetto agli altri. <br>Il corpo, asciutto e nervoso, sembra fatto più di molle e leve che di carne e ossa. <br>Ogni muscolo è teso come una corda pronta a scattare, e i suoi gesti sono talmente rapidi e netti che, a uno sguardo distratto, potrebbero sembrare spasmi disordinati. <br>Ma chi lo osserva bene capisce: Grix non si muove a caso. <br>Ogni scatto è un calcolo. <br>Ogni passo, un piano.
+<p><br>
+La pelle ha una sfumatura verdastra intensa, spesso sporcata da fuliggine, grasso o residui di polvere nera. <br>Il volto è spigoloso, scavato da espressioni perennemente tese, come se anche il sorriso – e ne sfoggia molti – fosse una specie di smorfia calcolata. <br>Gli zigomi alti e aguzzi incorniciano occhi gialli, vivaci e penetranti, sempre schermati dagli Ocularia-Swish. <br>Lì dietro, gli occhi brillano di una luce metallica, un misto di genio, follia e una certa malizia compiaciuta. <br>Chi incrocia quello sguardo sa che il "genio" ha già pensato a come smontargli il cuore e rimontarlo in un’altra forma, solo per vedere se funziona meglio.
+<p><br>
+Le sue dita lunghe e sottili sono un mondo a parte. <br>Snodate, precise, sembrano creature autonome, sempre in movimento, come se stessero lavorando anche quando Grix non se ne accorge. <br>Sono mani da artigiano e ladro, da mercante e sabotatore. <br>Mani che hanno costruito meraviglie, e distrutto ogni pretesa di normalità.
+<p><br>
+Ha un modo tutto suo di camminare: rapido, basso sul baricentro, sempre in allerta. <br>Non ondeggia, non tentenna, ma fila dritto come un proiettile con occhi e orecchie sempre aperti. <br>La voce, invece, è squillante, tagliente, ironica. <br>Ogni parola è uno sfottò mascherato, ogni frase termina – quasi per contratto – con un ''Porco il fato!'' gridato o sussurrato, a seconda dell’umore.
+<p><br>
+Grix indossa ciò che serve. <br>Nulla di decorativo, tutto funzionale.<br> Qualche pezzo in cuoio rinforzato, un’arma nascosta nel parabraccio, un paio di scarponi robusti, e la giacca in cuoio dalle mille tasche. <br> Ma nulla di tutto ciò spicca quanto lui stesso. <br>È il suo modo di stare al mondo a renderlo riconoscibile. <br>Un goblin che odia la magia con passione quasi religiosa, che ama la caccia come rito di superiorità ingegneristica sulla natura, e che trova nei conigli – e soprattutto nelle loro interiora – un piacere culinario quasi poetico.
+<p><br>
+Grixardo Davinchi rimane una costante: imprevedibile, geniale, fastidioso e indispensabile. E guai a chiamarlo solo “inventore”. <br>Grix è un’idea con le gambe. <br>E ha appena trovato il modo di correre più veloce di tutti gli altri.</p>
+        </section>
+        
+        <section>
+            <h2>Statistiche</h2>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <h3>Forza</h3>
+                    <p>Grix non è fatto per sollevare massi o abbattere porte. Le sue braccia, sottili come tiranti d’ottone, non rompono… ma smontano. Se deve forzare qualcosa, lo fa con una leva, una vite, un trucco meccanico. Perché mettere muscoli dove puoi mettere ingegno?</p>
+                </div>
+                <div class="stat-item">
+                    <h3>Destrezza</h3>
+                    <p>Scattante come una molla ben calibrata, Grix è un lampo verdastro che zigzaga tra pericoli, trappole e guai. Le sue dita si muovono con una precisione quasi ossessiva, e il suo corpo pare seguire leggi fisiche tutte sue. Impossibile da prevedere, difficile da colpire.</p>
+                </div>
+                <div class="stat-item">
+                    <h3>Costituzione</h3>
+                    <p>Nonostante l’aspetto gracile, Grix è sorprendentemente resistente. Più per abitudine che per dono naturale: ha respirato fumi tossici, ingoiato pezzi di coniglio crudo e dormito su travi d’acciaio. Se il mondo non l’ha ancora ucciso, è perché non ha capito come.</p>
+                </div>
+                <div class="stat-item">
+                    <h3>Intelligenza</h3>
+                    <p>Grixardo ha un intelletto affilato: calcoli, meccanismi, conoscenze tecniche... Ma provate a dirgli che qualcuno “ha il cuore spezzato” e vi risponderà chiedendo dove sta il meccanismo da riparare. Non distingue un pianto disperato da un’allergia al polline, e se vi fissate troppo a lungo, potrebbe domandarsi se vi siate impallati. </p>
+                </div>
+                <div class="stat-item">
+                    <h3>Saggezza</h3>
+                    <p>Non chiamatela saggezza, Porco il fato! Ché il mastro non ha la pazienza di un vecchio saggio. Ma possiede un istinto finissimo, animalesco. Sa quando stare zitto, quando scappare, quando mordere. Fiuta i pericoli come un predatore affamato. E spesso ci ride sopra.</p>
+                </div>
+                <div class="stat-item">
+                    <h3>Carisma</h3>
+                    <p>Non è bello ma piace! Quando Grix parla, si finisce, inevitabilmente per ascoltarlo. Sarà il tono, sarà la velocità con cui spara sproloqui, sarà che sembra sempre sapere qualcosa che tu non sai. Un fascino strano, ruvido, come una trappola ben oliata.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <h2>Maestranze</h2>
+            <div class="abilities">
+                <div class="ability">
+                    <h3>Maestro di Balestre e Traiettorie Balistiche</h3>
+                    <p>Se esiste un modo per lanciare un dardo, Grixardo l’ha già pensato, migliorato e brevettato. Ha una balestra per ogni evenienza: una da polso per colpire a bruciapelo, una pieghevole per gli agguati silenziosi, una di precisione per centrare bersagli a distanza imbarazzante. Le conosce, le costruisce, le smonta e le riassembla in meno tempo di quanto serva a un gambelunga per dire “fermo!”.
+Ogni colpo che spara è una dichiarazione d’ingegno.</p>
+                </div>
+                <div class="ability">
+                    <h3>Maestro di Creazioni e Contrattazioni</h3>
+                    <p>E' un artigiano certificato dalla Corporazione Mercantile. La sua abilità si manifesta anche nel momento del bisogno: riesce a improvvisare trappole anche con una scatola di sardine.
+È anche un abile mercante, pronto a venderti fuffa spacciandola per rivoluzione tecnologica. Che si tratti di artigianato o di commercio, questo è il suo mestiere ufficiale. E anche il suo orgoglio.
+Dove gli altri vedono rottami, lui vede soluzioni... e occasioni per fare monete.</p>
+                </div>
+                <div class="ability">
+                    <h3>Maestro di Scarselle Fuggenti e Manolesta</h3>
+                    <p>Prima di essere riconosciuto come artigiano, Grixardo il Rinnegato non se la passava affatto bene. Finito a Dalen, bazzicava i quartieri malfamati, là dove l’onore si misura a mani veloci e silenzi ben piazzati.
+Ha imparato a muoversi senza farsi notare, a nascondersi nelle ombre... e a far sparire le scarselle con la grazia di un artista.
+Le vecchie abitudini – e certe abilità – non si perdono mai.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="bio">
+            <h2>Storia</h2>
+          <p><h3>Infanzia – Il Cucciolo Strano del Branco</h3></p>
+<p>Nato tra le lande selvagge del Namsarek, Grixardo cresce nel Popolo del Lupo Bianco. Ma già dalle prime lune è chiaro che quel cucciolo verde ha qualcosa che non va, troppo ribelle. Mentre gli altri imparano a cacciare e a rispettare gli spiriti e i Sommi, lui smonta ossa per farne leve, intreccia liane per creare fionde a ripetizione e costruisce trappole per i topi che sembrano progetti militari. È più interessato a come funziona un meccanismo che alle parole dei Taur. Per questo motivo viene spesso emarginato e preso in giro.
+<br> <br>
+<p><h3> Adolescenza – Il Rinnegato </h3></p>
+<p>Nemmeno ventenne, Grix è stanco di sentirsi l’errore statistico della sua razza. Schernito, ignorato, incompreso e anche un po’ pressato. Così lascia la tribù con uno zaino pieno di rottami, una mappa disegnata male e un cuore pieno di rancore. La sua strada lo porta a Dalen, la famigerata città malfamata, dove la legge è un concetto molto flessibile. Qui impara l’altra metà del mestiere: il silenzio, la furtività, l’arte di sopravvivere tra tagliagole, truffatori e furti con destrezza. È lì che nasce Grixardo “il Rinnegato”, dove l’ingegno serve anche per svuotare tasche, non solo per costruire balestre.
+<br> <br>
+<p><h3> Presente – Il Mastro dell'ingegno </h3></p>
+<p>Oggi Grixardo ha quarant’anni e da venti non fa parte di alcuna tribù. È un cosmopolita, un mercante con le dita nere di grasso e un sorriso sornione. Vive a Dalsida, nella contrada dei Mille Scambi, dove dirige l’Esagono dell’Ingegno: bottega, laboratorio e banco di meraviglie improbabili. È un artigiano ufficiale della Corporazione Mercantile, mastro in forgiatura e ingegneria. Vende, costruisce, sperimenta. Disprezza la magia, gli stregoni, le cerimonie, ma rispetta profondamente i dadi del caso e l’arte della leva. Sotto l’elmetto di cuoio e dietro gli Ocularia-Swish si nasconde un goblin che vuole una sola cosa: dimostrare che il genio, anche se verde e basso, può cambiare il mondo… o almeno guadagnarci sopra.
+        </section>
+        
+        <footer>
+            AVVERTENZA: Le informazioni contenute nel presente documento sono fornite esclusivamente a scopo di consultazione off-game. Qualsiasi uso, abuso, adattamento, appropriazione o improvvisa illuminazione on-game dei contenuti qui descritti da parte di altri personaggi sarà considerata una violazione del sacro Codice del Buon Ruolatore™.
+
+Effetti collaterali di un uso improprio includono: metagiocata acuta, incoerenza narrativa, eruzioni cutanee da master, e perdita istantanea di dignità ruolistica.
+
+Tenere fuori dalla portata dei PG.
+Conservare in luogo asciutto, lontano da bacchette magiche e sfere divinatorie.
+
+Consultare sempre il proprio master o farmacista prima dell’uso.
+        </footer>
+    </div>
+</body>
+</html>
